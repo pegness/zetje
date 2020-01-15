@@ -1,0 +1,17 @@
+.headerArea {
+  margin-bottom:25px;
+  .logoWrapper {
+    position: relative;
+    display: block;
+    .logo {
+      width: 180px;
+      margin: 0 auto;
+      display: block;
+    }
+    .beta {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+    }
+  }
+}

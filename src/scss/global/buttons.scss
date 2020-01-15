@@ -1,0 +1,27 @@
+.button {
+  font-family: Bitter;
+  font-size: 1.4rem;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  height: auto;
+
+  &.primary {
+    padding: 8px 20px;
+    background: $orange;
+  }
+
+  &.secondary {
+    padding: 5px 20px;
+    background: none;
+    border: 3px solid white;
+    &:hover {
+      opacity: 0.8; 
+      color: #FB5916;        
+  }
+  }
+}

@@ -1,0 +1,60 @@
+// Global
+@import './global/custom-antd';
+@import './global/colors';
+@import './global/typography';
+@import './global/fonts';
+@import './global/buttons';
+@import './global/forms';
+@import './global/presets';
+
+// Containers
+
+// Components
+@import './components/back-button';
+@import './components/bank-dropdown';
+@import './components/donation-slider';
+@import './components/dashboard';
+@import './components/logo';
+@import './components/amount';
+@import './components/donation';
+@import './components/name';
+@import './components/pages';
+@import './components/share';
+@import './components/pay';
+@import './components/zetjes';
+@import './components/login';
+@import './components/register-form-1';
+@import './components/register-form-2';
+@import './components/landing-page';
+@import './components/loading';
+@import './components/zetje-menu';
+@import './components/popup-form';
+@import './components/footer';
+
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+  letter-spacing: 0.5px;
+}
+
+.app {
+  background: #3494E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(158deg, $gradient1, $gradient2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(158deg, $gradient1, $gradient2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 1rem 0;
+  box-sizing: border-box;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 350px;
+  margin: auto;
+  padding:0 15px 75px;
+}
+
+.logout {
+  text-decoration: underline;
+  text-align: center;
+  cursor: pointer;
+}

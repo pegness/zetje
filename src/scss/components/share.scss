@@ -1,0 +1,53 @@
+.share-container {
+  .input{
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.share {
+  .url{
+    text-align: center;
+    background: white;
+    color: $dark-grey;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1.1rem;
+  }
+
+  .button {
+    &.share-option {
+      width: 45%;
+    }
+
+    &.whatsapp {
+      margin-right: 10%;
+      background: $whatsapp-green;
+      padding: 8px 0;
+    }
+
+    &.copy {
+      background: $copy-grey;
+      padding: 10px 0;
+    }
+  }
+
+  .other {
+    margin-top: 1.5rem;
+    text-decoration: underline;
+  }
+
+  .copy-success {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 8px 0;
+    background: $whatsapp-green;
+    text-align: center;
+  }
+
+  i.anticon.anticon-loading {
+    margin-right: 1rem;
+  }
+}

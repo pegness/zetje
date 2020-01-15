@@ -1,0 +1,57 @@
+{
+  "name": "zetje.org",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "^7.5.5",
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-brands-svg-icons": "^5.10.0",
+    "@fortawesome/free-regular-svg-icons": "^5.9.0",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "antd": "^3.23.3",
+    "axios": "^0.19.0",
+    "copy-to-clipboard": "^3.2.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-jest": "^22.14.1",
+    "node-sass": "^4.12.0",
+    "rc-slider": "^8.6.13",
+    "react": "^16.8.6",
+    "react-cookie": "^4.0.1",
+    "react-currency-format": "^1.0.0",
+    "react-dom": "^16.8.6",
+    "react-gtm-module": "^2.0.7",
+    "react-iframe": "^1.8.0",
+    "react-light-accordion": "^0.1.4",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.0.1",
+    "react-typeform-embed": "^0.2.1",
+    "round-to": "^4.0.0"
+  },
+  "scripts": {
+    "start": "REACT_APP_API_URL=https://littlebitz.luminis.amsterdam react-scripts start",
+    "build": "REACT_APP_API_URL=https://littlebitz.luminis.amsterdam REACT_APP_PRODUCTION_BASE_URL=https://zetje.org react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-react": "^7.14.3"
+  }
+}

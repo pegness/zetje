@@ -1,0 +1,21 @@
+.dashboard {
+  .new {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    color: white;
+    background-color: $orange;
+    padding: 20px;
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    box-sizing: content-box;
+  }
+
+  .zetjes-title {
+    text-align: center;
+  }
+}
