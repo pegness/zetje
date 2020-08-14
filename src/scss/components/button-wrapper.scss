@@ -1,0 +1,36 @@
+.buttonWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  .back-button {
+    border: 3px solid #fff;
+    border-radius: 10px;
+    width: 48%;
+    text-align: center;
+    a {
+      border: none;
+    }
+  }
+  .PopupForm {
+    display:inline;
+    position: relative;
+    width: 48%;
+    border: 3px solid white;
+    border-radius: 10px;
+    button {
+        background-color: transparent;
+        border: none;
+        padding: 5px 20px;
+        font-family: Bitter;
+        font-size: 1.4rem;
+        
+        cursor: pointer;
+        &:hover {
+            opacity: 0.8;  
+            color:#FB5916;      
+        }
+
+    }
+}
+  
+}

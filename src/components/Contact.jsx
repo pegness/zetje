@@ -19,12 +19,12 @@ const Contact = () => {
             <p>
               <a href="https://wa.me/31629457934" className="whatsapp-link">
                 <img src="img/wa_icon.png" width="60" alt="" />
-                Contact ons
+                Whatsapp ons
               </a>
             </p>
             <p>
-              Of stuur ons een 
-              <a href="mailto:hello@zetje.org" className="footer-link"> mail</a> {/* of 
+              Of stuur ons een{" "} 
+              <a href="mailto:hello@zetje.org" className="footer-link">mail</a> {/* of 
               <a href="https://www.instagram.com/geefeenzetje/" target="_blank" rel="noopener noreferrer" className="footer-link"> instagram</a><br />
               */}
             </p>

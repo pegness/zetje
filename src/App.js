@@ -32,6 +32,7 @@ function App() {
           }
         />
         <Route path="/terms" component={Terms} />
+        <Route path="/registreren" component={RegisterForm} />
         <Route path="/faq" component={FAQ} />
         <Route path="/contact" component={Contact} render={props => <Verification {...props} testing />} />
         <Route path="/pay/success" component={PaymentSuccess} />

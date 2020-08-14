@@ -35,11 +35,10 @@ Alle Zetje betaalverzoeken beginnen met https://zetje.org/pay/. Zie je iets ande
               De donatie gaat naar iemand in nood in Kenia. Onze partner GiveDirectly selecteert de mensen die onze hulp het best kunnen gebruiken. De donateur, ofwel degene die het Zetje heeft gestuurd, kan zien wie de donatie precies heeft ontvangen.
               </AccordionItem>
               <AccordionItem title="Is Zetje gratis te gebruiken?">
-              Nee, 100% van jouw donatie gaat naar GiveDirectly, dat er op haar beurt voor zorgt dat het geld bij de ontvangers komt. Benieuwd waarom GiveDirectly als een van de beste goede doelen bekend staat? Kijk hier: https://www.thelifeyoucansave.org/best-charities/givedirectly/.
+              Ja. De kosten van de iDEAL betaling worden door ons gedekt. 100% van jouw donatie gaat naar GiveDirectly. De kosten die wij maken worden gedragen door partners die graag nieuwe technologie toepassen om de wereld een stukje beter te maken.
               </AccordionItem>
               <AccordionItem title="Blijft er geld aan de strijkstok hangen?">
-              Ja. Net zo veilig als elk ander betaalverzoek. De betalingen worden verwerkt door Online Betaal Platform van MediaMedics BV, bekend van Marktplaats, ANWB en andere gerespecteerde bedrijven.
-Alle Zetje betaalverzoeken beginnen met https://zetje.org/pay/. Zie je iets anders, laat het ons weten via WhatsApp of hello@zetje.org. 
+              Nee, 100% van jouw donatie gaat naar GiveDirectly, dat er op haar beurt voor zorgt dat het geld bij de ontvangers komt. Benieuwd waarom GiveDirectly als een van de beste goede doelen bekend staat? Kijk hier: https://www.thelifeyoucansave.org/best-charities/givedirectly/.
               </AccordionItem>
               <AccordionItem title="Wie zit er achter Zetje?">
               Zetje is een initiatief van LittleBitz, de nieuwe manier van geven. LittleBitz is een not for profit platform met ANBI status, geregistreerd in Amsterdam. LittleBitz maakt geven leuker en effectiever. Lees meer over LittleBitz op littlebitz.org of stuur ons een WhatsApp.
@@ -74,7 +73,7 @@ Alle Zetje betaalverzoeken beginnen met https://zetje.org/pay/. Zie je iets ande
               We willen je graag laten weten dat je Zetje betaald is. Dat kan het makkelijkst en snelst via SMS. Wil je je afmelden? Stuur een berichtje via <a href="https://wa.me/31629457934">WhatsApp</a> of naar <a href="mailto:hello@zetje.org">hello@zetje.org</a>.
               </AccordionItem>
               <AccordionItem title="Ik kan Zetje niet vinden in de Play of App Store.">
-              Dat klopt. Je kan Zetje gebruiken via zetje.org. Wil je Zetje op je startscherm in Android, klik dan hier. Voor iPhone is dit nog niet mogelijk. We werken aan een oplossing.
+              Dat klopt, je kan Zetje direct gebruiken via zetje.org. Wil je Zetje op je startscherm in Android, klik dan <a href="https://www.computeridee.nl/workshop/android-tip-snelkoppelingen-naar-favoriete-sites-op-homescherm/" target="_blank">hier</a>. Voor iPhone klik je <a href="https://www.iculture.nl/tips/favoriete-websites-in-safari-iphone-ipad/" target="_blank">hier</a>.  Verplaats Zetje dan naar de plek waar je je oude betaalverzoek app had staan. :-)
               </AccordionItem>
             </Accordion>
           </div>

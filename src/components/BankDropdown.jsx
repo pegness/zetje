@@ -29,7 +29,7 @@ const BankDropdown = (props) => {
     <div className="bank-dropdown">
       <Dropdown
         overlay={menu}
-        className="dropdown"
+        className="dropdown input"
         trigger={['click']}
       >
         <Button>

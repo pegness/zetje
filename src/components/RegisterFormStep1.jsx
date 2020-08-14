@@ -24,7 +24,6 @@ const RegisterFormStep1 = (props) => {
     lastName,
     email,
     phoneNumber,
-    //notificationEnabled,
     allowedToContact,
   } = form;
 

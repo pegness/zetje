@@ -1,11 +1,36 @@
 .share-container {
+  
   .input{
     font-size: 1.25rem;
     margin-bottom: 2rem;
+    
+  }
+  .share {
+    display:flex;
+    justify-content: space-between;
+    width: auto;
+    .button {
+      &.share-option {
+        width: 50%;
+      }
+
+      &.whatsapp {
+        margin-right: 5%;
+        background: $whatsapp-green;
+        padding: 8px 0;
+      }
+
+      &.copy {
+        background: $copy-grey;
+        padding: 10px 0;
+      }
+    }
   }
 }
 
 .share {
+  margin-top: 20px;
+  width: 40%;
   .url{
     text-align: center;
     background: white;
@@ -21,7 +46,7 @@
     }
 
     &.whatsapp {
-      margin-right: 10%;
+      margin-right: 5%;
       background: $whatsapp-green;
       padding: 8px 0;
     }
