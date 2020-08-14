@@ -1,23 +1,142 @@
+@import './global/colors';
+
+.alignRight {
+  text-align: right;
+}
+
 .pay, .register-form-3 {
   .button {
     display: block;
     width: 100%;
+    &:hover {
+      opacity: 0.8; 
+        
+    }
+  }
+  .reverse {
+    background-color: white;
+    color: #333;
+    &:hover {
+      opacity: 0.8; 
+          
+    }
   }
 }
 
 .pay {
+  .payWrapper {
+    background-color: transparent;
+    
+    .payDescription {
+      border-radius: 10px;
+      
+      margin-bottom: 20px;
+      border: 1px solid #ffffff;
+      .wrapper {
+        padding: 15px;
+      }
+    }
+    .payDonate {
+      border-radius: 10px;
+      padding:15px;
+      margin-bottom: 20px;
+      border: 1px solid #ffffff;
+    }
+    .accordion {
+      border: none;
+      .accordion-item {
+        .title {
+          padding: 0 15px 15px;
+          font-size: 12px;
+          color: #ffffff;
+          background-color: transparent;
+          &:after {
+             content: '\2228';
+             color: #e26511; 
+             font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .rc-slider {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .payButtonWrapper {
+    position: relative;
+    .primary {
+      line-height: 1;
+    }
+    
+  }
+  .subtext {
+    font-size: 12px;
+  }
   h3 {
     margin-bottom: 20px;
   }
   p {
-    margin:1.5em 0;
+    margin:1.3em 0;
+    font-size: 18px; 
+    .orange {
+      color: gold;
+    }
+  }
+  .smaller {
+    font-size:14px;
+  }
+  .bigger {
+    font-size: 1.3rem; 
+    
+  }
+  .nomargin {
+    margin:0;
+  }
+  .extraDonate {
+    margin:0;
+  }
+  .check-label {
+    color: white;
+    font-size: 14px;
+  }
+  .profile {
+    display: flex;
+    margin-bottom: 20px;
+    .profile-left {
+      width: 100%;
+      margin-right: 15px;
+      margin-top: 5px;
+
+    }
+    .profile-right {
+      
+    }
+  }
+  .donationSliderWrapper {
+    display: flex;  
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .center {
+    text-align: center;
+    a {
+      color:white;
+      text-decoration: underline;
+    }
   }
 }
 
 .opp-data {
-  margin-top: 30px;
+  margin: 20px 0;
   font-size:9px;
   text-align: center;
+  a {
+    color: white;
+    text-decoration: underline;
+  }
 }
 
 

@@ -51,9 +51,9 @@ const Share = (props) => {
 
   return (
     <div className="share">
-      <h3 className="mt-0">
+      {/*<h3 className="mt-0">
         Deel via..
-      </h3>
+      </h3>*/}
 
       <Button
         type="primary"
@@ -61,7 +61,7 @@ const Share = (props) => {
         onClick={whatsApp}
         className="button share-option whatsapp"
       >
-        <FontAwesomeIcon icon={faWhatsapp} size="lg" />
+        <FontAwesomeIcon icon={faWhatsapp}  />
       </Button>
 
       <Button

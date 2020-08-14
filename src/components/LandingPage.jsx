@@ -179,17 +179,6 @@ const LandingPage = (props) => {
         <p className="paragraph-8">Mensen in grote armoede of vluchtelingen kunnen wel een zetje in de rug gebruiken.<br/>
         Je doneert rechtstreeks aan mensen die zijn geselecteerd door gerenommeerde organisaties als GiveDirectly.
         </p>
-        <div className="feature-wrap reverse">
-          <div className="feature-image">
-            <img src="img/healthconnect.png" width="160" alt="" className="image-2" />
-          </div>
-          <div className="feature-image">
-            <img src="img/unhcr-logo.jpg" width="225" alt="" className="image-2" />
-          </div>
-          <div className="feature-image">
-            <img src="img/give-directly-logo.png" width="225" alt="" className="image-2" />
-          </div>
-        </div>
       </div>
       <div className="bottom-image-wrap" />
       <div id="team" className="section wide">
@@ -228,6 +217,8 @@ Hierdoor kunnen mensen lokaal stappen zetten om zelfstandig een beter bestaan op
             <img src="img/littlebitz-logo.svg" width="68" alt="" />
           </a>
           <div className="footer-list">
+            <a href="privacy" className="footer-link">Privacybeleid</a>
+            <a href="terms" className="footer-link">Gebruikersvoorwaarden</a>
             <a href="mailto:hello@zetje.org" className="footer-link">Email</a>
             <a href="https://www.instagram.com/geefeenzetje/" target="_blank" rel="noopener noreferrer" className="footer-link">Instagram</a>
             <a href="https://wa.me/31629457934" target="_blank" rel="noopener noreferrer" className="footer-link">WhatsApp</a>

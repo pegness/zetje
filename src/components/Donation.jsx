@@ -68,6 +68,8 @@ const Donation = (props) => {
       <DonationSlider
         onChange={setDonationPercentage}
         defaultValue={donationPercentage}
+        handleColor="#ffffff"
+        trackColor="#ffffff"
       />
       <h3>en steun iemand die het goed kan gebruiken met&nbsp;
         <CurrencyFormat

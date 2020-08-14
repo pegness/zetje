@@ -8,6 +8,7 @@ import Description from '../components/Description';
 import Dashboard from '../components/Dashboard';
 import ShareContainer from '../components/ShareContainer';
 import Menu from '../components/ZetjeMenu';
+import Logo from '../components/Logo';
 
 function LoggedIn(props) {
   const {
@@ -34,6 +35,7 @@ function LoggedIn(props) {
     <div className="app">
       <Menu />
       <div className="container">
+        <Logo />
         {currentStep === 0 && (
         <Dashboard
           currentStep={currentStep}
@@ -92,13 +94,12 @@ function LoggedIn(props) {
         )
         }
         {currentStep === 4 && (
-          <HomeButton />
+          <div className="buttonWrapper">
+            <HomeButton />
+            <PopupForm />
+          </div>
         )
-        }
-        {currentStep === 4 && (
-          <PopupForm />
-        )
-        }
+        }      
       </div>
     </div>
   );

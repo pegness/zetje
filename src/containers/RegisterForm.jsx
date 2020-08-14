@@ -3,6 +3,7 @@ import Logo from '../components/Logo';
 import RegisterFormStep1 from '../components/RegisterFormStep1';
 import RegisterFormStep2 from '../components/RegisterFormStep2';
 import RegisterFormStep3 from '../components/RegisterFormStep3';
+import Menu from '../components/ZetjeMenu';
 
 const RegisterForm = (props) => {
   const {
@@ -25,7 +26,6 @@ const RegisterForm = (props) => {
     lastName: '',
     email: '',
     phoneNumber: '',
-    notificationEnabled: true,
     confirmationToken: '',
     confirmationCode: '',
     verificationUrl: verifyIBAN ? decodeURIComponent(verificationUrl) : '',
@@ -38,6 +38,7 @@ const RegisterForm = (props) => {
 
   return (
     <div className="app">
+      <Menu />
       <div className="container">
         <Logo />
 

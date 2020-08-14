@@ -20,17 +20,22 @@
     "react-cookie": "^4.0.1",
     "react-currency-format": "^1.0.0",
     "react-dom": "^16.8.6",
+    "react-ga": "^2.7.0",
     "react-gtm-module": "^2.0.7",
+    "react-hooks-helper": "^1.6.0",
     "react-iframe": "^1.8.0",
     "react-light-accordion": "^0.1.4",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.0.1",
+    "react-sound": "^1.2.0",
     "react-typeform-embed": "^0.2.1",
-    "round-to": "^4.0.0"
+    "round-to": "^4.0.0",
+    "soundmanager2": "^2.97.20170602",
+    "use-force-update": "^1.0.7"
   },
   "scripts": {
     "start": "REACT_APP_API_URL=https://littlebitz.luminis.amsterdam react-scripts start",
-    "build": "REACT_APP_API_URL=https://littlebitz.luminis.amsterdam REACT_APP_PRODUCTION_BASE_URL=https://zetje.org react-scripts build",
+    "build": "REACT_APP_API_URL=https://api.littlebitz.nl REACT_APP_PRODUCTION_BASE_URL=https://zetje.org react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

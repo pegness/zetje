@@ -38,7 +38,6 @@ const LoginStep1 = (props) => {
   };
 
   const failure = (e) => {
-    console.log(e);
     tagManager({ event: 'serverError', field: 'login' });
     setErrorAPI(true);
     setLoading(false);

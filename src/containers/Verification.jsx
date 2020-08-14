@@ -6,7 +6,6 @@ import getAllZetjes from '../api/getAllZetjes';
 import tagManager from '../lib/googleTagManager';
 import Logo from '../components/Logo';
 import getVerified from '../api/getVerified';
-import Footer from '../components/Footer';
 
 const Verification = (props) => {
   const [error, setError] = useState(false);
@@ -74,7 +73,6 @@ const Verification = (props) => {
             </h3>
           </div>
         </div>
-        <Footer logout={logout} />
       </div>
     );
   }
@@ -93,7 +91,6 @@ const Verification = (props) => {
             </h3>
           </div>
         </div>
-        <Footer logout={logout} />
       </div>
     );
   }
